@@ -1,5 +1,5 @@
 {
-  "name": "@carrotwu/webio",
+  "name": "package-name",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.main.js",
