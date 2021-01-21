@@ -19,7 +19,7 @@ import * as pkg from './package.json';
 
 const projectRootDir = path.resolve(__dirname);
 const srcDir = path.resolve(projectRootDir, './src')
-const libraryName = 'RuqiIo';
+const libraryName = pkg.name;
 export default {
   input: 'src/index.ts',
   output: [
