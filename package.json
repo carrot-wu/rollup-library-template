@@ -12,7 +12,15 @@
     "watch": "rollup -c --watch",
     "lint": "eslint src --ext .ts --fix"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carrot-wu/rollup-library-template.git"
+  },
+  "homepage": "https://github.com/carrot-wu/rollup-library-template#README",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.10",
